@@ -1,0 +1,49 @@
+* {
+  font-family: 'Segoe UI';
+}
+
+QPushButton {
+  background-color: #add6d4;
+  color: #446361;
+  border: 2px solid #add6d4;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+QPushButton:hover {
+  background-color: #a3cecc;
+  border-color: #446361;
+}
+
+QHeaderView::section {
+  padding: 15px;
+  background-color: #b6d3d2;
+  color: #486866;
+}
+
+QTableView::item:focus {
+  selection-background-color: #b3d8ce;
+}
+
+QComboBox {
+  padding-left: 10px;
+}
+
+QComboBox:item:selected {
+  background-color: #94d1cd;
+  color: white;
+}
+
+QComboBox:item:checked {
+  padding-left: 25px;
+  max-height: 50px;
+  font-weight: bold;
+}
+
+QPlainTextEdit {
+  background-color: white;
+  color: #333333;
+  border: 5px solid #628c8a;
+  border-radius: 8px;
+  padding-left: 10px;
+}
